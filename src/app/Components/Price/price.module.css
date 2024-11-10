@@ -1,0 +1,107 @@
+.main {
+    background-color: #E7ECFF;
+    max-width: 100%;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+
+.text {
+    padding: 0 25rem;
+}
+
+.h3 {
+    font-size: 2rem;
+    color: #091133;
+}
+
+.p {
+    padding: 1.5rem 0;
+    color: #6F7CB2;
+    line-height: 1.5;
+}
+
+.p2 {
+    color: #6F7CB2;
+    padding-bottom: 1.5rem;
+}
+
+.btnPrimary {
+    background-color: #111B47;
+    color: #fff;
+    border: none;
+    padding: 0.6rem 2rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btnPrimary:hover {
+    background-color: transparent;
+    color: #111B47;
+    border: 2px solid #111B47;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 1200px) {
+
+    .text {
+        padding: 0 10rem;
+    }
+
+    .h3 {
+        font-size: 1.75rem;
+    }
+
+    .btnPrimary {
+        padding: 0.6rem 1.8rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .text {
+        padding: 0 5rem;
+    }
+
+    .h3 {
+        font-size: 1.5rem;
+    }
+
+    .p {
+        padding: 1rem 0;
+    }
+
+    .btnPrimary {
+        padding: 0.5rem 1.5rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .text {
+        padding: 0 2rem;
+    }
+
+    .h3 {
+        font-size: 1.25rem;
+    }
+
+    .p {
+        padding: 0.8rem 0;
+    }
+
+    .btnPrimary {
+        padding: 0.5rem 1.2rem;
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        padding: 3rem;
+    }
+}
